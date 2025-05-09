@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="site_title_accesorios">Accesorios - PUA Diseño Textil Infantil</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .language-switcher {
+            text-align: right; 
+            padding: 5px 0;
+        }
+        .language-switcher .lang-link {
+            color: #333; 
+            text-decoration: none;
+            padding: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .language-switcher .lang-link.active {
+            color: #007bff; 
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.jpeg" alt="Logo PUA" class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="polerones.html" data-translate-key="nav_polerones">Polerones</a></li>
+                    <li><a href="frajacket.html" data-translate-key="nav_frajacket">Frajacket</a></li>
+                    <li><a href="accesorios.html" data-translate-key="nav_accesorios">Accesorios</a></li>
+                    <li><a href="hogar.html" data-translate-key="nav_hogar">Hogar</a></li>
+                    <li><a href="haz-tu-pedido.html" data-translate-key="nav_haz_pedido">Haz tu pedido</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <a onclick="setLanguage('es')" class="lang-link active" id="lang-es">ES</a> |
+                <a onclick="setLanguage("it")" class="lang-link" id="lang-it">IT</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1 data-translate-key="header_accesorios">Accesorios</h1>
+            <p data-translate-key="subheader_accesorios">Complementos textiles elaborados con retazos y materiales recuperados</p>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="product-grid" data-product-type="colets">
+                <!-- Los productos se cargarán dinámicamente -->
+            </div>
+        </div>
+    </section>
+
+    <section class="product-info">
+        <div class="container">
+            <div class="info-content">
+                <h2 data-translate-key="about_accesorios_title">Sobre nuestros accesorios</h2>
+                <p data-translate-key="about_accesorios_text_1">Nuestros accesorios son el resultado de un proceso creativo que busca aprovechar al máximo los retazos textiles. Cada pieza es confeccionada a mano, dando una segunda vida a materiales que de otra forma serían desechados.</p>
+                
+                <p data-translate-key="about_accesorios_text_2">En PUA creemos que incluso los complementos más pequeños pueden tener un gran impacto, tanto en tu estilo como en el medio ambiente. Por eso, cada accesorio que creamos combina funcionalidad, estética y sostenibilidad.</p>
+                
+                <p data-translate-key="about_accesorios_text_3">Los diseños coloridos y las texturas variadas hacen que cada accesorio sea único, reflejando nuestra filosofía de valorar el oficio de la costura y generar productos de calidad que respetan el entorno.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-translate-key="footer_pua_title">PUA</h3>
+                    <p data-translate-key="footer_pua_subtitle">Diseño textil infantil sostenible</p>
+                    <p data-translate-key="footer_pua_location">Valparaíso, Chile</p>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate-key="footer_links_title">Enlaces</h3>
+                    <a href="polerones.html" data-translate-key="nav_polerones_footer">Polerones</a>
+                    <a href="frajacket.html" data-translate-key="nav_frajacket_footer">Frajacket</a>
+                    <a href="accesorios.html" data-translate-key="nav_accesorios_footer">Accesorios</a>
+                    <a href="hogar.html" data-translate-key="nav_hogar_footer">Hogar</a>
+                </div>
+                <div class="footer-section">
+                    <h3 data-translate-key="footer_follow_us_title">Síguenos</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/pua_disenos/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p data-translate-key="footer_copyright">&copy; 2025 PUA - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

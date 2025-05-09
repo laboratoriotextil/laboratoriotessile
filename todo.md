@@ -1,25 +1,30 @@
-# Todo for Multilingual Website Update
+# Proyecto Sitio Web PUA
 
-## Phase 1: Analysis and Design
+## Tareas
 
-- [x] 1.1 Analyze current website structure (all HTML files) for multilingual support.
-- [x] 1.2 Identify all user-facing text content in Spanish across all HTML pages.
-- [x] 1.3 Design the language switching mechanism (e.g., URL structure, JS switcher).
+- [x] Analizar el sitio web existente de Laboratorio Textil
+- [x] Recopilar contenido de Instagram de PUA para polerones
+- [x] Diseñar la estructura del sitio web
+  - [x] Crear directorios necesarios
+  - [x] Configurar archivos CSS
+  - [x] Configurar archivos JavaScript
+  - [x] Crear estructura de datos para productos
+- [x] Crear página de inicio con filosofía de PUA
+- [x] Crear página de polerones
+- [x] Crear página de colets y accesorios
+- [x] Implementar sistema de gestión de productos
+- [x] Desplegar el sitio web
+- [x] Documentar cómo agregar nuevos productos
 
-## Phase 2: Translation and Implementation
+## Notas
 
-- [x] 2.1 Create Italian versions of all HTML files or implement a dynamic content loading system.
-- [x] 2.2 Obtain/Generate Italian translations for all identified text content.
-- [x] 2.3 Implement the language switcher UI element.
-- [x] 2.4 Integrate Italian translations into the new structure/files.
+### Filosofía de PUA
+- Reutilizar, reducir y reciclar
+- Crear objetos únicos, prácticos y útiles
+- Presentar soluciones
+- Reducir y reciclar el desecho textil con diseños únicos
+- Enfoque en diseño infantil
 
-## Phase 3: Testing and Validation
-
-- [x] 3.1 Test language switching functionality on all pages.
-- [x] 3.2 Verify that all content is correctly displayed in both Spanish and Italian.
-- [x] 3.3 Check for any broken links or layout issues after changes.
-
-## Phase 4: Deployment and Reporting
-
-- [x] 4.1 Deploy the updated multilingual website.
-- [x] 4.2 Report completion and provide the updated site URL to the user.
+### Estructura del Sitio
+- Laboratorio Textil: rama de investigación
+- PUA: parte de productos enfocada en diseño infantil
